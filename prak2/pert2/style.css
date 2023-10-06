@@ -1,0 +1,59 @@
+.header {
+    padding: 10px;
+    background-color: blueviolet;
+    display: flex;
+    gap: 10px;   
+}
+.header img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.navbar{
+    background-color: aqua;
+    display: flex;
+}
+.navbar .menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-left: 60%;
+}
+.navbar .menu a{
+    text-decoration: none;
+    color: black;
+}
+.back {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    padding-top: 40px;
+}
+.section{
+    background-color: aliceblue;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+}.about .vid{
+    width: fit-content;
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact button{
+    background-color: crimson;
+}
+.footer{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    color: aliceblue;
+    justify-content: center;
+}
