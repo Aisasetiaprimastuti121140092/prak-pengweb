@@ -1,0 +1,69 @@
+body {
+    background-color: aqua;
+}
+header {
+    background-color: blue;
+    color: white;
+    padding: 0px 20px;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+    margin: 20px;
+}
+nav button {
+    background-color: brown;
+    padding: 10px;
+    border-radius: 15px;
+}
+.about {
+    display: flex;
+    background-color: burlywood;
+}
+.data button{
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+table {
+    width: 100%;
+}
+.pengalaman{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+.project{
+    align-items: center;
+}
+.container-box{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.box {
+    background-color: beige;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.data button {
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+}
+@media  {max-width: 768px;}
